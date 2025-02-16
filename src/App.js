@@ -1,6 +1,6 @@
 import React from "react";
-import AdComponent from "./AdComponent";
 import AdComponent1 from "./AdComponent1";
+import TypingTest from "./TypingTest.js";
 
 function App() {
   return (
