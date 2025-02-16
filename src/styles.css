@@ -1,0 +1,166 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  /* Typing Master Container */
+  .typing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+
+  .type{
+    /* width: 200px; */
+    align-items: center;
+    background-color: rgb(49, 46, 46) !important;
+    margin-left:15vb;
+    margin-right: 15vb;
+    padding: 5px 10px;
+    border-radius: 10px 20px;
+  }
+  
+  /* Heading */
+  h1 {
+    margin-top: 100px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  /* Level Buttons */
+  .level-button {
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
+  }
+  
+  .level-button:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+  }
+  
+  /* Different Level Colors */
+  .bg-blue-500 { background-color: #1e90ff; }
+  .bg-green-500 { background-color: #28a745; }
+  .bg-red-500 { background-color: #dc3545; }
+  
+  /* Typing Text Display */
+  .typing-text {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-family: 'Courier New', monospace;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    transition: all 0.5s ease-in-out;
+    width: 80%;
+    text-align: center;
+  }
+  
+  /* Correct Words */
+  .correct {
+    color: #4CAF50;
+    font-weight: bold;
+  }
+  
+  /* Incorrect Words */
+  .incorrect {
+    color: #ff3333;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  /* Typing Input Field */
+  input {
+    width: 80%;
+    padding: 12px;
+    font-size: 1.5rem;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    color: white;
+    border-bottom: 3px solid #1e90ff;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input:focus {
+    outline: none;
+    border-bottom: 3px solid #4CAF50;
+  }
+  
+  /* Score Board */
+  .score-board {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 1.2rem;
+  }
+  
+  .score-board span {
+    font-weight: bold;
+    color: #FFD700;
+  }
+  
+  /* Result Section */
+  .result-box {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  /* Fade In Animation */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+
+
+  .correct {
+    color: rgb(179, 255, 179);
+    /* font-weight: bold; */
+  }
+  
+  .incorrect {
+    color: rgb(249, 253, 25);
+    /* font-weight: bold; */
+  }
+  
+
+  .ad-container {
+    width: 100%;
+    max-width: 728px; /* Adjust as per your layout */
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .adsbygoogle {
+    width: 100%;
+    height: auto;
+    min-height: 90px; /* Ensure proper height */
+  }
+  
+  
